@@ -1,0 +1,52 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+}
+
+.adicionar {
+    cursor: pointer;
+    background-color: rgb(94, 12, 12);
+    color: white;
+    border: black solid 2px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.adicionar:hover{
+transform: scale(1.15);
+transition: 0.6 s;
+}
+
+.remover {
+    cursor: pointer;
+    color: rgb(94, 12, 12);
+    border: rgb(94, 12, 12) solid 2px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.remover:hover{
+    background-color: red;
+    transition: 0.8s;
+    color: white;
+}
+
+.concluir {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(94, 12, 12);
+    border: rgb(94, 12, 12) solid 2px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.concluir:hover{
+    background-color: red;
+    transition: 0.8s;
+    color: white;
+}
